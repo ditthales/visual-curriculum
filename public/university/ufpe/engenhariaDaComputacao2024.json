@@ -1,0 +1,320 @@
+{
+    "university": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+    "course": "ENGENHARIA DA COMPUTAÇÃO",
+    "semesters": 10,
+    "totalHours": 3600,
+    "totalHoursElective": 1050,
+    "totalHoursFreeElective": 90,
+    "totalHoursProfileElective": 480,
+    "totalHoursExtension": 360,
+    "totalHoursComplementary": 120,
+    "totalHoursObligatory": 2550,
+    "disciplines": [
+
+        {
+            "name": "CALCULO DIFERENCIAL E INTEGRAL 1",
+            "code": "MA026",
+            "ementa": "Derivada de funções de uma variável; Propriedades básicas das funções de uma variável; Integrais de funções de uma variável.",
+            "hours": 60,
+            "semester": 1,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": [
+                {
+                    "code": "MA027",
+                    "name": "CALCULO DIFERENCIAL E INTEGRAL 2"
+                },
+                {
+                    "code": "ET586",
+                    "name": "ESTATIST PROBABILIDADE COMPUTACAO"
+                },
+                {
+                    "code": "IF850",
+                    "name": "PROCESSAMENTO GRAFICO"
+                }
+            ]
+        },
+        {
+            "name": "GEOMETRIA ANALÍTICA 1",
+            "code": "MA036",
+            "ementa": "Sistemas de coordenadas no plano. A reta, a circunferência, as cônicas, Cálculo vetorial. Coordenadas no espaço. Retas e planos. Mudança de coordenadas (rotação e translação). Relação entre retas e planos. Superfícies quádricas.",
+            "hours": 60,
+            "semester": 1,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": [
+                {
+                    "code": "MA128",
+                    "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+                },
+                {
+                    "code": "CIN0004",
+                    "name": "FUNDAMENTOS DE ÁLGEBRA LINEAR"
+                }
+            ]
+        },
+        {
+            "name": "INTRODUÇÃO À PROGRAMAÇÃO",
+            "code": "CIN0001",
+            "ementa": "Conceito de algoritmos. Algoritmos no processo de solução de problemas. Conceitos básicos de programação. Tipos primitivos, valores e operadores. Expressões. Variáveis. Atribuição. Entrada e saída padrão. Estruturas de controle condicionais e de iteração. Tipos estruturados. Decomposição de programas. Funções e mecanismos de passagem de parâmetros. Escopo. Recursão.",
+            "hours": 60,
+            "semester": 1,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": [
+                {
+                    "code": "CIN0005",
+                    "name": "FUNDAMENTOS DE PROGRAMAÇÃO IMPERATIVA"
+                }
+            ]
+        },
+        {
+            "name": "LABORATÓRIO DE PROGRAMAÇÃO 1",
+            "code": "CIN0002",
+            "ementa": "Resolução de problemas que envolvam raciocínio algorítmico, sem escrita de programas. Compreensão de programas a partir simulações em ambientes de programação e da leitura de código fonte. Programar com linguagem de blocos. Implementar algoritmos em uma linguagem de programação para solução de problemas.",
+            "hours": 30,
+            "semester": 1,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": "INTRODUÇÃO A COMPUTAÇÃO",
+            "code": "CIN0003",
+            "ementa": "O que é Computação. História da Computação. Aritmética binária. Introdução às principais áreas da Computação (conceitos básicos, aplicações e áreas de atuação). Introdução à programação de dispositivos microcontrolados.",
+            "hours": 30,
+            "semester": 1,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": [
+                {
+                    "code": "CIN0007",
+                    "name": "SISTEMAS DIGITAIS"
+                },
+                {
+                    "code": "CIN0013",
+                    "name": "INFORMÁTICA E SOCIEDADE"
+                }
+            ]
+        },
+
+        {
+            "name": "CÁLCULO DIFERENCIAL E INTEGRAL 2",
+            "code": "MA027",
+            "ementa": "Funções de várias variáveis; Integrais múltiplas; Aplicações das integrais.",
+            "hours": 60,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [
+                {
+                    "code": "MA026",
+                    "name": "CALCULO DIFERENCIAL E INTEGRAL 1"
+                }
+            ],
+            "dependents": [
+                {
+                    "code": "MA128",
+                    "name": "CALCULO DIFERENCIAL E INTEGRAL 3"
+                },
+                {
+                    "code": "CIN0016",
+                    "name": "ESTATÍSTICA E PROBABILIDADE PARA COMPUTAÇÃO"
+                }
+            ]
+        },
+        {
+            "name": "FUNDAMENTOS DE ÁLGEBRA LINEAR",
+            "code": "CIN004",
+            "ementa": "Matrizes e sistemas lineares. Noção de espaço vetorial, subespaço, bases, dimensão. Transformações lineares, operadores, autovalores e autovetores, diagonalização Produto escalar. Operadores simétricos e ortogonais. Aplicação a quádricas e a sistemas de equações diferenciais.",
+            "hours": 60,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [
+                {
+                    "code": "MA036",
+                    "name": "GEOMETRIA ANALÍTICA 1"
+                }
+            ],
+            "dependents": [
+                {
+                    "code": "CIN0010",
+                    "name": "MATEMÁTICA DISCRETA PARA COMPUTAÇÃO"
+                },
+                {
+                    "code": "CIN0020",
+                    "name": "SINAIS E SISTEMAS PARA COMPUTAÇÃO"
+                }
+            ]
+        },
+        {
+            "name": "FUNDAMENTOS DE PROGRAMAÇÃO IMPERATIVA",
+            "code": "CIN0005",
+            "ementa": "Conceito de variáveis em linguagens de programação imperativas. Conceito de tipos (valores e operadores). Variáveis e constantes. Ponto flutuante: tipo, declaração e aritmética. Entrada e saída padrão. Estruturas de controle. Tipos compostos (uniões, registros). Estruturas de dados unidimensionais e n-dimensionais. Definição e manipulação de ponteiros. Gestão de memória. Estruturas de dados lineares dinâmicas. Entrada e saída em arquivos. Introdução a Programação Orientada a Objetos.",
+            "hours": 60,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [
+                {
+                    "code": "CIN0001",
+                    "name": "INTRODUÇÃO À PROGRAMAÇÃO"
+                }
+            ],
+            "dependents": [
+                {
+                    "code": "CIN0009",
+                    "name": "ALGORITMOS E ESTRUTURAS DE DADOS"
+                }
+            ]
+        },
+        {
+            "name": "LABORATÓRIO DE PROGRAMAÇÃO 2",
+            "code": "CIN0006",
+            "ementa": "Consolidação de conhecimentos de programação, algoritmos e estruturas de dados. Implementação de programas de pequeno porte com construções de linguagens de programação imperativa procedural (declarações de variáveis, expressões, atribuições, estruturas de controle e funções). Desenvolvimento de programas com funções recursivas. Construção de um programa de médio porte em uma linguagem imperativa procedimental. Técnicas de teste e depuração de programas. Ferramentas auxiliares no desenvolvimento de programas.",
+            "hours": 30,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": "SISTEMAS DIGITAIS",
+            "code": "CIN0007",
+            "ementa": "Representação de Informação Digital, Conversão A/D e D/A, Portas Lógicas, Operações Lógicas, Álgebra de Boole, Mintermos, Maxtermos, Mapas de Karnaugh, Circuitos Combinacionais (Circuitos Comparadores, Circuitos Multiplexadores, Circuitos Demultiplexadores, Circuitos Decodificadores, Circuitos Aritméticos Somadores, Circuitos Aritméticos Subtratores, Circuitos Aritméticos Multiplicadores), Ambiente CAD para desenvolvimento de projetos usando FPGAs, Circuitos Sequenciais (Flip Flops, Latches, Registradores, Memória, Circuitos Contadores, Máquinas de Estados Finitos), Introdução à Unidade de Processamento e Controle de Microprocessador, Linguagem de Descrição de Hardware (Verilog).",
+            "hours": 60,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [
+                {
+                    "code": "CIN0003",
+                    "name": "INTRODUÇÃO A COMPUTAÇÃO"
+                }
+            ],
+            "dependents": [
+                {
+                    "code": "CIN0011",
+                    "name": "ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES"
+                }
+            ]
+        },
+        {
+            "name": "LABORATÓRIO DE SISTEMAS DIGITAIS",
+            "code": "CIN0008",
+            "ementa": "Representação de Informação Digital, Conversão A/D e D/A, Portas Lógicas, Operações Lógicas, Álgebra de Boole, Mintermos, Maxtermos, Mapas de Karnaugh, Circuitos Combinacionais (Circuitos Comparadores, Circuitos Multiplexadores, Circuitos Demultiplexadores, Circuitos Decodificadores, Circuitos Aritméticos Somadores, Circuitos Aritméticos Subtratores, Circuitos Aritméticos Multiplicadores), Ambiente CAD para desenvolvimento de projetos usando FPGAs, Circuitos Sequenciais (Flip Flops, Latches, Registradores, Memória, Circuitos Contadores, Máquinas de Estados Finitos), Introdução à Unidade de Processamento e Controle de Microprocessador, Linguagem de Descrição de Hardware (Verilog).",
+            "hours": 30,
+            "semester": 2,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+
+
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+
+        {
+            "name": ,
+            "code": ,
+            "ementa": ,
+            "hours": ,
+            "semester": ,
+            "credits": 4,
+            "isObligatory": true,
+            "equivalences": [],
+            "prerequisites": [],
+            "dependents": []
+        },
+        
+    ]
+}
